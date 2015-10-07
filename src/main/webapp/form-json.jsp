@@ -16,7 +16,8 @@
 				var formData = {
 						"name" : $scope.name,
 						"location" : $scope.location,
-						"phone" : $scope.phone	
+						"phone" : $scope.phone
+// 						,"ss":1
 				};
 				
 				var response = $http.post('PostFormData', formData);
